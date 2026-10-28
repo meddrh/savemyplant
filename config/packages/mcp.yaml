@@ -1,0 +1,11 @@
+mcp:
+    servers:
+        default:
+            registry: 'App\Mcp\'
+
+            http:
+                path: /mcp
+
+            # STDIO for clients such as Claude Desktop: bin/console mcp:server
+            transports:
+                stdio: true
